@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# name: discourse-category-experts
+# name: catexp
 # about: Allows users to endorse each other as experts in specific categories.
 # meta_topic_id: 190814
 # version: 0.0.1
