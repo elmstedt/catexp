@@ -8,7 +8,7 @@ describe ReviewableCategoryExpertSuggestion do
   fab!(:category)
   fab!(:group)
   let(:category_expert_endorsement) do
-    CategoryExpertEndorsement.create(user: admin, endorsed_user: user, category: category)
+    CategoryExpertEndorsement.create(user: user, endorsed_user: user, category: category)
   end
 
   let(:reviewable) do
