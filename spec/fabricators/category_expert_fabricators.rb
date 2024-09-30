@@ -7,7 +7,7 @@ Fabricator(:category_expert_endorsement) do
 end
 
 Fabricator(:reviewable_category_expert_suggestion) do
-  reviewable_by_moderator false
+  reviewable_by_moderator true
   type "ReviewableCategoryExpertSuggestion"
   created_by { Fabricate(:user) }
   topic
